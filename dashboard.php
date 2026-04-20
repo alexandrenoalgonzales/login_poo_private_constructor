@@ -5,7 +5,7 @@
 <?php 
 
 require 'classes/login.php';
-use classes\login;
+use classes\Login;
 
 // Pegamos os dados (aqui mudei para POST como você mencionou)
 $user = $_POST['user'] ?? '';
